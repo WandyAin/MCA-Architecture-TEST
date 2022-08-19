@@ -13,7 +13,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Section-3
 
-{% assign section-3_groups = 
+{% assign section-3_groups = site.pages
+  | where: "section-3", true %}
 
 {% for section-3 in section-3_groups %}
 - [{{ section-3.title }}]({{ section-3.url | relative_url }})
@@ -21,7 +22,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Section-4
 
-{% assign section-4_groups = 
+{% assign section-4_groups = site.pages
+  | where: "section-4", true %}
 
 {% for section-4 in section-4_groups %}
 - [{{ section-4.title }}]({{ section-4.url | relative_url }})
