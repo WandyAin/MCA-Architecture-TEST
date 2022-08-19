@@ -1,0 +1,36 @@
+title: MCA Architecture
+
+permalink: pretty
+
+header_links:
+  GitHub: https://github.com/DFE-Digital/architecture
+
+footer_links:
+  Accessibility: https://dfe-digital.github.io/architecture/accessibility
+
+defaults:
+  -
+    scope:
+      path: "section-2"
+    values:
+      scetion-2: true
+  -
+    scope:
+      path: "section-3"
+    values:
+      scetion-3: true
+  -
+    scope:
+      path: "section-4"
+    values:
+      section-4: true
+  -
+    scope:
+      path: "section-5"
+    values:
+      section-5: true
+  -
+    scope:
+      path: "section-6"
+    values:
+      section-6: true
